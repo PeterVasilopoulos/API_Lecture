@@ -11,7 +11,7 @@ const AxiosAPI = () => {
         .then((response) => {
             // Log data to check how it's formatted
             console.log(response.data);
-            // Put data inside the reponse into the coins variable
+            // Put data inside the response into the coins variable
             setCoins(response.data);
         })
         .catch((err) => {
